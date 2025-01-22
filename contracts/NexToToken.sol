@@ -28,10 +28,10 @@ contract NexToToken is IBEP20, Manageable {
     uint256 private constant MAX = ~uint256(0);
 
 
-    string private _name = "NexToToken";
-    string private _symbol = "NXT";
+    string private _name = "Wrapped NexTo";
+    string private _symbol = "wNXT";
     uint8 private _decimals = 3;
-    uint256 private _tTotal = 50000000000 * 10**_decimals;
+    uint256 private _tTotal = 500000000 * 10**_decimals;
 
 
     mapping (address => uint256) private _tOwned;
