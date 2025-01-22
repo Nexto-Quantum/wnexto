@@ -14,3 +14,7 @@ ___
 Wrapped NexTo was created with the belief that there need to be stronger, more trustworthy, and more worthwhile projects built throughout the deFi space. We decided to take this into our own hands by launching Wrapped NexTo; a BEP-20 token featuring battle tested tokenomics, an innovative future roadmap, and a trustworthy team that cares for its investors.
 
 ## Specification
+
+Name : Wrapped NexTo
+Ticker : wNEXT
+Maximum Supply : 500.000.000 wNEXT
