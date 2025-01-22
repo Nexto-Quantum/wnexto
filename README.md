@@ -1,0 +1,2 @@
+# wnexto
+Wrapped NexTo Coin
