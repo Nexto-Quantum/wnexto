@@ -15,10 +15,10 @@ module.exports = async function (deployer, network, accounts) {
     console.log("\n   Configuring 'NexToToken'");
     console.log("   ---------------------------");
 
-    currentTx = await NexToToken.addManagementFeesReciever('0x1A1D9d3581e0aE2569349d3574327bfb77aC2B4B');
+    currentTx = await NexToToken.addManagementFeesReciever('0x028f01a4671d2fb7a6653411e7a6f2f68d72c201');
     console.log(`   > transaction hash: ${currentTx.tx}`);
 
-    currentTx = await NexToToken.addManagementFeesReciever('0x1A1D9d3581e0aE2569349d3574327bfb77aC2B4B');
+    currentTx = await NexToToken.addManagementFeesReciever('0x028f01a4671d2fb7a6653411e7a6f2f68d72c201');
     console.log(`   > transaction hash: ${currentTx.tx}`);
 
     currentTx = await NexToToken.setMinPendingFeesForAutoLiquify(BigInt(750000000));
@@ -64,10 +64,10 @@ module.exports = async function (deployer, network, accounts) {
     console.log("\n   Configuring 'NexToToken'");
     console.log("   ---------------------------");
 
-    currentTx = await NexToToken.addManagementFeesReciever('0x1A1D9d3581e0aE2569349d3574327bfb77aC2B4B');
+    currentTx = await NexToToken.addManagementFeesReciever('0x028f01a4671d2fb7a6653411e7a6f2f68d72c201');
     console.log(`   > transaction hash: ${currentTx.tx}`);
 
-    currentTx = await NexToToken.addManagementFeesReciever('0x1A1D9d3581e0aE2569349d3574327bfb77aC2B4B');
+    currentTx = await NexToToken.addManagementFeesReciever('0x028f01a4671d2fb7a6653411e7a6f2f68d72c201');
     console.log(`   > transaction hash: ${currentTx.tx}`);
   }
   currentTx = await NexToToken.sendTransaction({from: accounts[0], value: 100000000000000000});
