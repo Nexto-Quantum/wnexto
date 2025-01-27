@@ -16,6 +16,9 @@ Wrapped NexTo was created with the belief that there need to be stronger, more t
 ## Specification
 
 Name : Wrapped NexTo
+
 Ticker : wNEXT
+
 PEG : NEXT(Coin)
+
 Maximum Supply : 500.000.000 wNEXT
